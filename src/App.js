@@ -2,19 +2,19 @@ import React from 'react';
 import Header from './components/Header.js';
 import Genre from './components/Genre.js';
 import CurrentGenre from './components/CurrentGenre.js';
-import Movies from './components/Movies.js';
+import WatchList from './components/WatchList.js';
 import Footer from './components/Footer.js';
 
 function App() {
   return (
-    <>
-      <Header/>
-      {/* <main>
+    <>  
+      <Header/> 
+      <main>
         <Genre/>
         <CurrentGenre/>
-        <Movies/>
+        <WatchList/>
       </main>
-      <Footer/> */}
+      {/* <Footer/> */}
     </>
   );
 }
