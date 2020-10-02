@@ -14,7 +14,7 @@ function App() {
         <CurrentGenre/>
         <WatchList/>
       </main>
-      {/* <Footer/> */}
+      <Footer/>
     </>
   );
 }
